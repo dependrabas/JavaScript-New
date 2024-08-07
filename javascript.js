@@ -64,3 +64,15 @@ console.log("seeing delete");
 delete myobj.name;
 console.log(myobj.name);
 
+console.log("Hello");
+
+const address = {
+    street: 'main',
+    numbers: 100,
+    apartment: {
+        floor: 3, // Changed "Floor" to "floor" to follow camelCase convention
+        numbers: 100
+    }
+};
+
+console.log(address.apartment.floor); // Accessing the 'floor' property of the 'apartment' object

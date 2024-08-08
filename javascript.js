@@ -183,9 +183,10 @@ for(let i=1;i<=20;i++){
     }
     function a(){
         var myVar=2;
-        
+
         b();
     }
 
     var myVar = 1;
+    console.log(myVar);
     a();

@@ -140,3 +140,32 @@ rl.question('Enter your Age: ', (answer) => {
 
     rl.close();
 });
+
+
+
+
+
+
+// let num = prompt("Enter a number: ");
+
+// num = numbers(prompt("Enter a number: "));
+// console.log(num);
+
+for(let i=1;i<=20;i++){
+    if(i%2==0){
+        console.log(i);
+    } else {
+        console.log("I am not a number");
+    }
+        
+    }
+
+    let obj={
+        depen:99,
+        raj:100,
+        tashi:101,
+        tshering:102
+    }
+    for(let a in obj){
+        console.log("Marks of"+ a + "is "+ obj[a]);
+    }

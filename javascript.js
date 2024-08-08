@@ -169,3 +169,23 @@ for(let i=1;i<=20;i++){
     for(let a in obj){
         console.log("Marks of"+ a + "is "+ obj[a]);
     }
+
+    let n = 30;
+
+    while(n<=40){
+        console.log(n);
+        n++;
+    }   
+
+    function b(){
+        var myVar;
+        console.log(myVar);
+    }
+    function a(){
+        var myVar=2;
+        
+        b();
+    }
+
+    var myVar = 1;
+    a();

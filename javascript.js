@@ -75,4 +75,68 @@ const address = {
     }
 };
 
-console.log(address.apartment.floor); // Accessing the 'floor' property of the 'apartment' object
+console.log(address.apartment.floor); // Accessing the 'floor' property of the 'apartment' object7
+
+let myao={
+country: 'Bhutan',
+home: 'tala',
+games: 'football'
+}
+
+console.log(myao.country);
+console.log(myao.home);
+console.log(myao.games);
+
+
+function addthree(num1,num2,num3){
+    return (num1+num2+num3);
+}
+
+let c = addthree(2,3,5);
+console.log(c);
+
+var cos=10;
+console.log(cos);
+var cos =15;
+console.log(cos);
+
+var nama= {
+    name: 'depe'
+}
+
+console.log(nama.name);
+
+
+
+const readline = require('readline');
+
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+rl.question('Enter your Age: ', (answer) => {
+    let myAge = parseInt(answer, 10);
+
+    switch(myAge){
+        case 17:
+            console.log("I am 17 years old");
+            break;
+        case 18:
+            console.log("I am 18 years old");
+            break;
+        case 19:
+            console.log("I am 19 years old");
+            break;
+        case 20:
+            console.log("I am 20 years old");
+            break;
+        case 21:
+            console.log("I am 21 years old");
+            break;
+        default:
+            console.log("I am not 17 years old");
+    }
+
+    rl.close();
+});
